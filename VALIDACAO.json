@@ -1,111 +1,119 @@
 {
-  "tested": "ZIP extracted served by Python static HTTP; case-sensitive filesystem",
-  "requests": [
+  "http_requests": [
     {
       "file": "README.md",
       "status": 200,
-      "content_type": "text/markdown",
-      "bytes": 1292
+      "bytes": 2620,
+      "type": "text/markdown"
     },
     {
       "file": "clean.mp4",
       "status": 200,
-      "content_type": "video/mp4",
-      "bytes": 2520702
+      "bytes": 2520702,
+      "type": "video/mp4"
     },
     {
       "file": "clean1.mp4",
       "status": 200,
-      "content_type": "video/mp4",
-      "bytes": 1812610
+      "bytes": 1812610,
+      "type": "video/mp4"
     },
     {
       "file": "colchao-1-antes.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 144717
+      "bytes": 144717,
+      "type": "image/jpeg"
     },
     {
       "file": "colchao-1-depois.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 156412
+      "bytes": 156412,
+      "type": "image/jpeg"
     },
     {
       "file": "colchao-2-antes.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 107036
+      "bytes": 107036,
+      "type": "image/jpeg"
     },
     {
       "file": "colchao-2-depois.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 107369
+      "bytes": 107369,
+      "type": "image/jpeg"
     },
     {
       "file": "colchao-servico.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 158338
+      "bytes": 158338,
+      "type": "image/jpeg"
     },
     {
       "file": "em-acao.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 106428
+      "bytes": 106428,
+      "type": "image/jpeg"
     },
     {
       "file": "favicon.svg",
       "status": 200,
-      "content_type": "image/svg+xml",
-      "bytes": 377
+      "bytes": 377,
+      "type": "image/svg+xml"
     },
     {
       "file": "hero.jpg",
       "status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 128687
+      "bytes": 128687,
+      "type": "image/jpeg"
     },
     {
       "file": "index.html",
       "status": 200,
-      "content_type": "text/html",
-      "bytes": 15248
+      "bytes": 16940,
+      "type": "text/html"
     },
     {
       "file": "logo-symbol.svg",
       "status": 200,
-      "content_type": "image/svg+xml",
-      "bytes": 470
+      "bytes": 470,
+      "type": "image/svg+xml"
     },
     {
       "file": "main.js",
       "status": 200,
-      "content_type": "text/javascript",
-      "bytes": 2579
+      "bytes": 5606,
+      "type": "text/javascript"
     },
     {
       "file": "netlify.toml",
       "status": 200,
-      "content_type": "application/octet-stream",
-      "bytes": 24
+      "bytes": 24,
+      "type": "application/octet-stream"
     },
     {
       "file": "robots.txt",
       "status": 200,
-      "content_type": "text/plain",
-      "bytes": 23
+      "bytes": 23,
+      "type": "text/plain"
     },
     {
       "file": "styles.css",
       "status": 200,
-      "content_type": "text/css",
-      "bytes": 20661
+      "bytes": 24228,
+      "type": "text/css"
     }
   ],
-  "broken_references": [],
-  "404": 0,
-  "css_js_identical_to_original": true,
+  "broken_paths": [],
+  "404_count": 0,
+  "anchors_valid": true,
+  "desktop_browser_checked": true,
+  "mobile_iframe_sizes": [
+    "390x844",
+    "320px"
+  ],
+  "native_mobile_device_tested": false,
+  "comparators_input_and_keyboard_checked": true,
+  "no_js_fallback_checked": true,
+  "videos_ready_and_playing_confirmed": true,
   "netlify_deploy_performed": false
 }

@@ -1,13 +1,33 @@
-# Royal Purity — pacote estático corrigido
+# Royal Purity — edição premium
 
-Todos os ficheiros estão na raiz. Apenas caminhos e organização de media foram alterados; HTML visual, textos, CSS e JS mantidos.
+Website estático completo. Sem build command, frameworks, dependências ou fontes externas.
 
-Publicação manual: extrair o ZIP e publicar a pasta completa que contém index.html e os ficheiros JPG/MP4/SVG. Não publicar apenas HTML/CSS/JS.
+## Apresentação
+- Entrada de marca em verde profundo, coroa/gota e linha dourada: 1,6 segundos, sem esperar media; não repete na mesma sessão quando sessionStorage está disponível.
+- Hero full-bleed com clean.mp4, poster hero.jpg, overlay cinematográfico, título editorial e CTAs champagne/outline.
+- Serviços: destaque de sofás + quatro linhas editoriais numeradas.
+- Dois comparadores antes/depois com range nativo, labels e handle; teclado e input touch compatível com browsers móveis. Fotografias originais não retocadas; perspetivas diferentes identificadas na nota.
+- clean1.mp4 em composição vertical com moldura deslocada, headline e descrição.
+- Header reativo ao scroll, menu móvel, scroll suave e reveals de 650–900 ms.
+- prefers-reduced-motion elimina entrada e animações; vídeos decorativos dão lugar aos posters. Comparadores e menu continuam funcionais.
+- Sem JavaScript: conteúdo disponível, fotos lado a lado, menu por links e posters.
 
-Netlify: publish directory '.', sem build command. GitHub: incluir todos os 17 ficheiros.
+## Media
+Hero: clean.mp4 + hero.jpg. Bastidores: clean1.mp4 + em-acao.jpg.
+Sobre: colchao-servico.jpg. Resultados: colchao-1-antes/depois.jpg e colchao-2-antes/depois.jpg.
+Identidade: logo-symbol.svg + favicon.svg. Apenas media previamente fornecida, incluindo posters extraídos dos vídeos.
+Contacto: Instagram da marca; não foi inventado contacto WhatsApp.
 
-Hero: clean.mp4 e hero.jpg. Bastidores: clean1.mp4 e em-acao.jpg. Sobre: colchao-servico.jpg. Resultados: os quatro ficheiros colchao-*-antes/depois.jpg. Identidade: logo-symbol.svg e favicon.svg.
+## Publicar
+Extrair o ZIP e publicar a PASTA COMPLETA que contém index.html e todos os JPG, MP4 e SVG.
+Todos os 18 ficheiros estão diretamente na raiz. Netlify publish directory: '.', sem build command.
+No GitHub: incluir todos os ficheiros do ZIP no repositório, preservando nomes.
+Abrir index.html funciona com referências relativas; autoplay depende da política do navegador.
 
-Diagnóstico: no site publicado, pedidos aos assets devolviam a página 404. O pacote original tinha os ficheiros, mas esses caminhos não estavam disponíveis na publicação. Sem acesso ao painel/repositório, não é possível determinar como foram omitidos nem substituir o deploy.
-
-Validação: Chrome desktop (1348 px úteis) e layout mobile num iframe de 390 px (375 px úteis com scrollbar), menu funcional, sem overflow; imagens carregadas e ambos os vídeos com readyState=4 e reprodução confirmada. CSS e JavaScript sem alterações de conteúdo. A validação de HTTP do ZIP extraído encontra-se em VALIDACAO.json. Não foi efetuado deploy na conta Netlify.
+## Verificação
+Chrome desktop e layouts mobile em iframe 390×844 e 320 px, sem overflow horizontal.
+Menu abre/fecha, navegação por anchors, input e teclado nos comparadores; vídeos readyState=4 e reprodução confirmada, sem erros do site capturados.
+Fallback sem JavaScript testado num iframe com scripts bloqueados; preloader termina e ambas as fotografias continuam disponíveis.
+Não se realizou teste em dispositivo físico iOS/Android nem benchmark de desempenho.
+ZIP extraído servido num servidor HTTP estático sem Vite: todos os caminhos referenciados respondem 200, bytes conferidos com os ficheiros e zero 404. Relatório em VALIDACAO.json.
+O site Netlify existente não foi atualizado; esta versão tem de ser publicada pelo titular da conta.
