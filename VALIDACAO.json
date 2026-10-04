@@ -1,0 +1,111 @@
+{
+  "tested": "ZIP extracted served by Python static HTTP; case-sensitive filesystem",
+  "requests": [
+    {
+      "file": "README.md",
+      "status": 200,
+      "content_type": "text/markdown",
+      "bytes": 1292
+    },
+    {
+      "file": "clean.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 2520702
+    },
+    {
+      "file": "clean1.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 1812610
+    },
+    {
+      "file": "colchao-1-antes.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 144717
+    },
+    {
+      "file": "colchao-1-depois.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 156412
+    },
+    {
+      "file": "colchao-2-antes.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 107036
+    },
+    {
+      "file": "colchao-2-depois.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 107369
+    },
+    {
+      "file": "colchao-servico.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 158338
+    },
+    {
+      "file": "em-acao.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 106428
+    },
+    {
+      "file": "favicon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "bytes": 377
+    },
+    {
+      "file": "hero.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 128687
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 15248
+    },
+    {
+      "file": "logo-symbol.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "bytes": 470
+    },
+    {
+      "file": "main.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "bytes": 2579
+    },
+    {
+      "file": "netlify.toml",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 24
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "bytes": 23
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "bytes": 20661
+    }
+  ],
+  "broken_references": [],
+  "404": 0,
+  "css_js_identical_to_original": true,
+  "netlify_deploy_performed": false
+}
